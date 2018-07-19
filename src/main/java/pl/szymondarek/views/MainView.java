@@ -9,7 +9,7 @@ public void showLogRegisterMenu(){
 }
 
 
-    public void printMenu() {
+    public void printMainMenu() {
         System.out.println("==================================");
         System.out.println("Jaką operację chcesz wykonać: ");
         System.out.println("1 - Dodaj nowe zadanie");
