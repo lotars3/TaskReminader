@@ -7,6 +7,7 @@ import java.nio.file.StandardOpenOption;
 import java.util.Scanner;
 
 public class MainMenuLogic{
+    Scanner scanner = new Scanner(System.in);
 
     File file = new File("C:\\FileTest\\tasks.txt");
 
