@@ -2,11 +2,19 @@ package pl.szymondarek.views;
 
 public class MainView {
 
-public void showLogRegisterMenu(){
-    System.out.println("Witaj urzytkowaniku");
-    System.out.println("Masz koto podaj 1");
-    System.out.println("Chcesz się zarejestrować podaj 2");
-}
+    public void showLogRegisterMenu() {
+        System.out.println("Witaj urzytkowaniku");
+        System.out.println("Masz koto podaj 1");
+        System.out.println("Chcesz się zarejestrować podaj 2");
+    }
+
+    public void showLogingRequest() {
+        System.out.println("Podaj login ");
+    }
+
+    public void showPasswordRequest() {
+        System.out.println("podaj hasło");
+    }
 
 
     public void printMenu() {
@@ -17,4 +25,4 @@ public void showLogRegisterMenu(){
 
     }
 
-
+}
