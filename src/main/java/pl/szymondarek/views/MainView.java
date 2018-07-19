@@ -1,13 +1,13 @@
 package pl.szymondarek.views;
 
-import java.util.Scanner;
-
 public class MainView {
 
-    private Scanner scanner = new Scanner(System.in);
-    private int choice;
+public void showLogRegisterMenu(){
+    System.out.println("Witaj urzytkowaniku");
+    System.out.println("Masz koto podaj 1");
+    System.out.println("Chcesz się zarejestrować podaj 2");
+}
 
-    }
 
     public void printMenu() {
         System.out.println("==================================");
@@ -15,24 +15,6 @@ public class MainView {
         System.out.println("1 - Dodaj nowe zadanie");
         System.out.println("2 - Zobacz zadania na dziś");
 
-        System.out.println("3 - EXIT (Wyloguj mnie\n)");
-        System.out.println("Twój wybór to: ");
-    }
-
-    public void userAnswer() {
-        switch (choice) {
-            case 1: {
-                addNewTask();
-            }
-            break;
-        }
-        case 2: {
-            viewTaskForToday();
-            break;
-        }
-        case 3: {
-            break;
-        }
     }
 
 
